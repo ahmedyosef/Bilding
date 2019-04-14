@@ -1,0 +1,195 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp\Assembly-CSharp.dll
+-unsafe
+-optimize
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_1_0
+-define:UNITY_2017_1
+-define:UNITY_2017
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_RUNTIME_NAVMESH_BUILDING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:CROSS_PLATFORM_INPUT
+"Assets/New Scene/laeser.cs"
+"Assets/New Scene/LightningBolt/LightningBoltScript.cs"
+"Assets/Standard Assets5.5.0/2D/Scripts/Camera2DFollow.cs"
+"Assets/Standard Assets5.5.0/2D/Scripts/CameraFollow.cs"
+"Assets/Standard Assets5.5.0/2D/Scripts/Platformer2DUserControl.cs"
+"Assets/Standard Assets5.5.0/2D/Scripts/PlatformerCharacter2D.cs"
+"Assets/Standard Assets5.5.0/2D/Scripts/Restarter.cs"
+"Assets/Standard Assets5.5.0/Cameras/Scripts/AbstractTargetFollower.cs"
+"Assets/Standard Assets5.5.0/Cameras/Scripts/AutoCam.cs"
+"Assets/Standard Assets5.5.0/Cameras/Scripts/FreeLookCam.cs"
+"Assets/Standard Assets5.5.0/Cameras/Scripts/HandHeldCam.cs"
+"Assets/Standard Assets5.5.0/Cameras/Scripts/LookatTarget.cs"
+"Assets/Standard Assets5.5.0/Cameras/Scripts/PivotBasedCameraRig.cs"
+"Assets/Standard Assets5.5.0/Cameras/Scripts/ProtectCameraFromWallClip.cs"
+"Assets/Standard Assets5.5.0/Cameras/Scripts/TargetFieldOfView.cs"
+"Assets/Standard Assets5.5.0/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs"
+"Assets/Standard Assets5.5.0/Characters/FirstPersonCharacter/Scripts/HeadBob.cs"
+"Assets/Standard Assets5.5.0/Characters/FirstPersonCharacter/Scripts/MouseLook.cs"
+"Assets/Standard Assets5.5.0/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs"
+"Assets/Standard Assets5.5.0/Characters/RollerBall/Scripts/Ball.cs"
+"Assets/Standard Assets5.5.0/Characters/RollerBall/Scripts/BallUserControl.cs"
+"Assets/Standard Assets5.5.0/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs"
+"Assets/Standard Assets5.5.0/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs"
+"Assets/Standard Assets5.5.0/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs"
+"Assets/Standard Assets5.5.0/CrossPlatformInput/Scripts/AxisTouchButton.cs"
+"Assets/Standard Assets5.5.0/CrossPlatformInput/Scripts/ButtonHandler.cs"
+"Assets/Standard Assets5.5.0/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs"
+"Assets/Standard Assets5.5.0/CrossPlatformInput/Scripts/InputAxisScrollbar.cs"
+"Assets/Standard Assets5.5.0/CrossPlatformInput/Scripts/Joystick.cs"
+"Assets/Standard Assets5.5.0/CrossPlatformInput/Scripts/MobileControlRig.cs"
+"Assets/Standard Assets5.5.0/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs"
+"Assets/Standard Assets5.5.0/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs"
+"Assets/Standard Assets5.5.0/CrossPlatformInput/Scripts/TiltInput.cs"
+"Assets/Standard Assets5.5.0/CrossPlatformInput/Scripts/TouchPad.cs"
+"Assets/Standard Assets5.5.0/CrossPlatformInput/Scripts/VirtualInput.cs"
+"Assets/Standard Assets5.5.0/Environment/Water (Basic)/Scripts/WaterBasic.cs"
+"Assets/Standard Assets5.5.0/Environment/Water/Water/Scripts/Displace.cs"
+"Assets/Standard Assets5.5.0/Environment/Water/Water/Scripts/GerstnerDisplace.cs"
+"Assets/Standard Assets5.5.0/Environment/Water/Water/Scripts/MeshContainer.cs"
+"Assets/Standard Assets5.5.0/Environment/Water/Water/Scripts/PlanarReflection.cs"
+"Assets/Standard Assets5.5.0/Environment/Water/Water/Scripts/SpecularLighting.cs"
+"Assets/Standard Assets5.5.0/Environment/Water/Water/Scripts/Water.cs"
+"Assets/Standard Assets5.5.0/Environment/Water/Water/Scripts/WaterBase.cs"
+"Assets/Standard Assets5.5.0/Environment/Water/Water/Scripts/WaterTile.cs"
+"Assets/Standard Assets5.5.0/ParticleSystems/Scripts/AfterburnerPhysicsForce.cs"
+"Assets/Standard Assets5.5.0/ParticleSystems/Scripts/ExplosionFireAndDebris.cs"
+"Assets/Standard Assets5.5.0/ParticleSystems/Scripts/ExplosionPhysicsForce.cs"
+"Assets/Standard Assets5.5.0/ParticleSystems/Scripts/Explosive.cs"
+"Assets/Standard Assets5.5.0/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs"
+"Assets/Standard Assets5.5.0/ParticleSystems/Scripts/FireLight.cs"
+"Assets/Standard Assets5.5.0/ParticleSystems/Scripts/Hose.cs"
+"Assets/Standard Assets5.5.0/ParticleSystems/Scripts/ParticleSystemMultiplier.cs"
+"Assets/Standard Assets5.5.0/ParticleSystems/Scripts/SmokeParticles.cs"
+"Assets/Standard Assets5.5.0/ParticleSystems/Scripts/WaterHoseParticles.cs"
+"Assets/Standard Assets5.5.0/Utility/ActivateTrigger.cs"
+"Assets/Standard Assets5.5.0/Utility/AlphaButtonClickMask.cs"
+"Assets/Standard Assets5.5.0/Utility/AutoMobileShaderSwitch.cs"
+"Assets/Standard Assets5.5.0/Utility/AutoMoveAndRotate.cs"
+"Assets/Standard Assets5.5.0/Utility/CameraRefocus.cs"
+"Assets/Standard Assets5.5.0/Utility/CurveControlledBob.cs"
+"Assets/Standard Assets5.5.0/Utility/DragRigidbody.cs"
+"Assets/Standard Assets5.5.0/Utility/DynamicShadowSettings.cs"
+"Assets/Standard Assets5.5.0/Utility/EventSystemChecker.cs"
+"Assets/Standard Assets5.5.0/Utility/FollowTarget.cs"
+"Assets/Standard Assets5.5.0/Utility/ForcedReset.cs"
+"Assets/Standard Assets5.5.0/Utility/FOVKick.cs"
+"Assets/Standard Assets5.5.0/Utility/FPSCounter.cs"
+"Assets/Standard Assets5.5.0/Utility/LerpControlledBob.cs"
+"Assets/Standard Assets5.5.0/Utility/ObjectResetter.cs"
+"Assets/Standard Assets5.5.0/Utility/ParticleSystemDestroyer.cs"
+"Assets/Standard Assets5.5.0/Utility/PlatformSpecificContent.cs"
+"Assets/Standard Assets5.5.0/Utility/SimpleActivatorMenu.cs"
+"Assets/Standard Assets5.5.0/Utility/SimpleMouseRotator.cs"
+"Assets/Standard Assets5.5.0/Utility/SmoothFollow.cs"
+"Assets/Standard Assets5.5.0/Utility/TimedObjectActivator.cs"
+"Assets/Standard Assets5.5.0/Utility/TimedObjectDestructor.cs"
+"Assets/Standard Assets5.5.0/Utility/WaypointCircuit.cs"
+"Assets/Standard Assets5.5.0/Utility/WaypointProgressTracker.cs"
+"Assets/Standard Assets5.5.0/Vehicles/Aircraft/Scripts/AeroplaneAiControl.cs"
+"Assets/Standard Assets5.5.0/Vehicles/Aircraft/Scripts/AeroplaneAudio.cs"
+"Assets/Standard Assets5.5.0/Vehicles/Aircraft/Scripts/AeroplaneController.cs"
+"Assets/Standard Assets5.5.0/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs"
+"Assets/Standard Assets5.5.0/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs"
+"Assets/Standard Assets5.5.0/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs"
+"Assets/Standard Assets5.5.0/Vehicles/Aircraft/Scripts/AeroplaneUserControl4Axis.cs"
+"Assets/Standard Assets5.5.0/Vehicles/Aircraft/Scripts/JetParticleEffect.cs"
+"Assets/Standard Assets5.5.0/Vehicles/Aircraft/Scripts/LandingGear.cs"
+"Assets/Standard Assets5.5.0/Vehicles/Car/Scripts/BrakeLight.cs"
+"Assets/Standard Assets5.5.0/Vehicles/Car/Scripts/CarAIControl.cs"
+"Assets/Standard Assets5.5.0/Vehicles/Car/Scripts/CarAudio.cs"
+"Assets/Standard Assets5.5.0/Vehicles/Car/Scripts/CarController.cs"
+"Assets/Standard Assets5.5.0/Vehicles/Car/Scripts/CarSelfRighting.cs"
+"Assets/Standard Assets5.5.0/Vehicles/Car/Scripts/CarUserControl.cs"
+"Assets/Standard Assets5.5.0/Vehicles/Car/Scripts/Mudguard.cs"
+"Assets/Standard Assets5.5.0/Vehicles/Car/Scripts/SkidTrail.cs"
+"Assets/Standard Assets5.5.0/Vehicles/Car/Scripts/Suspension.cs"
+"Assets/Standard Assets5.5.0/Vehicles/Car/Scripts/WheelEffects.cs"
+Assets/tarek/Ahmed.cs
+Assets/tarek/ColorButtons.cs
+Assets/tarek/HexColor.cs
+Assets/tarek/Select.cs
+Assets/tarek/texter/AM.cs
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity

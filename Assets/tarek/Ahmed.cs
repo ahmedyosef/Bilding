@@ -4,27 +4,29 @@ using UnityEngine;
 
 public class Ahmed : MonoBehaviour {
 	public GameObject mesh;
+	public int Mesh;
 	public Renderer ren;
 	public Material[] mat;
 	public Texture tex;
 	public Color hexcolor;
-	public float r;
-	private static Ahmed Soundinstance;
-	public static Ahmed SoundInstance 
+	
+	private static Ahmed Ahmedinstance;
+	public static Ahmed AhmedInstance 
 	{
 		get
 		{
-			return Soundinstance;
+			return Ahmedinstance;
 		}
 	}
 	
 	// Use this for initialization
 	void Start () {
-		Soundinstance=this;
+		Ahmedinstance=this;
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
 		
  		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
@@ -32,14 +34,15 @@ public class Ahmed : MonoBehaviour {
         if (Physics.Raycast(ray, out hit, 1000))
 		{
 			Debug.DrawLine(ray.origin, hit.point);
-			ren = mesh.GetComponent<Renderer>();
-			mat = ren.materials;
-			//r=hexcolor.r;
-			//mat[1].color =Color.red;
-			mat[1].mainTexture=tex;
-			
-		}
-            
-        
+			 if(hit.collider.isTrigger)
+             {
+                Debug.Log(1);
+				hit.collider.gameObject.GetComponent<Select>().aa();
+				ren = mesh.GetComponent<Renderer>();
+				mat = ren.materials;
+				mat[1].color =hexcolor;
+				mat[1].mainTexture=tex;
+             }	
+		 }  
 	}	
 }
